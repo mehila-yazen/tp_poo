@@ -6,14 +6,14 @@ public class Animal {
     public Event  events;
 
 
-public Animal(String species , int age , int weight , Health health, Event events ){
-    this.species = species;
-    this.age = age;
-    this.weight = weight;
-    this.health = health;
-    this.events = events
+    public Animal(String species , int age , int weight , Health health, Event events ) {
+        this.species = species;
+        this.age = age;
+        this.weight = weight;
+        this.health = health;
+        this.events = events;
+    }
 
 }
 
-void main() {
-}
+
